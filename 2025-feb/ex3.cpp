@@ -10,8 +10,8 @@ int lengthOfLongestSubstring(string s){
     int return_value= 0;
     int start= 0;
     int count= 0;
-
-    for (int i= 0; i< s.size(); i++) {
+    
+    for (int i= 0; i< s.size(); i++){
         char c= s[i];
         int pos= static_cast<int>(c)- initial_char;
 
