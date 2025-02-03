@@ -8,7 +8,7 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2){
     int n2 = nums2.size();
 
     if(n2>n1){ findMedianSortedArrays(nums2, nums1); }
-
+    
     int n = n1 + n2;
     int left = (n1 + n2 + 1) / 2; // Calculate the left partition size
     int low = 0, high = n1;
