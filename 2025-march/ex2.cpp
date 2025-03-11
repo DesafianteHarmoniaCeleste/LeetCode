@@ -29,7 +29,7 @@ struct ListNode{
 
     using Ifs inside the main while was a smart idea, instead of completing the rest of the list outside of the main while using 2 if's
     
-    From this exercise i learned a little more about Simple-linkedLists in c++ ( i was more familiar with it in c ), and the CORRECT use of pointers
+    From this exercise i learned a little more about Simple-linkedLists in c++ ( i was more familiar with it in c ), and the CORRECT use of pointers.
 */
 class Solution{
     public:
