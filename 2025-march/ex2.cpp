@@ -33,8 +33,8 @@ class Solution{
     public:
         ListNode* addTwoNumbers(ListNode* l1, ListNode* l2){
 
-            int carry;
-            ListNode* returned_list = new ListNode;
+            int carry=0;
+            ListNode* returned_list = new ListNode(0);
             ListNode* current_node = returned_list;
 
             while(l1 || l2 || carry){
